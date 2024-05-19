@@ -41,12 +41,13 @@ nav,
 }
 header {
   width: 100%;
+  height: auto;
   background-color: rgb(255, 255, 255);
+  margin-top: -2%;
 }
 nav {
   background-color: rgb(255, 255, 255);
   text-align: center;
-  top: 0;
   left: 150px;
 }
 nav a {
@@ -61,7 +62,6 @@ nav a {
   margin: auto;
   width: 8vw;
   height: auto;
-  padding-bottom: 10px;
 }
 nav :hover {
   color: rgb(195, 108, 108);
@@ -93,7 +93,7 @@ nav :hover {
   .hamburger_menu {
     place-content: left;
     position: absolute;
-    top: 15px;
+    top: 8px;
     left: 10px;
     font-size: 30px;
   }
@@ -102,7 +102,7 @@ nav :hover {
     height: 300px;
     padding-top: 40px;
     left: 0px;
-    top: 50px;
+    top: 42px;
     background-color: #ffffff;
     box-shadow: 0 200px 100px rgba(0, 0, 0, 0.509);
     text-align: center;
@@ -506,7 +506,7 @@ nav :hover {
   margin-top: 3%;
 }
 .policy_and_terms_container p {
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   color: black;
 }
 .policy_and_terms_container a {
@@ -519,6 +519,10 @@ nav :hover {
 @media (max-width: 670px) {
   .header_policy {
     margin-top: 10%;
+  }
+  .policy_and_terms_container p{
+    font-size: 2.5vw;
+    margin-top: 2%;
   }
 }
 .Contact_head {
@@ -887,13 +891,13 @@ nav :hover {
   margin: 5%;
 }
 .for {
-  color: rgb(253, 79, 79); /* Endre til ønsket farge for "FOR" */
+  color: rgb(253, 79, 79);
 }
 .the {
-  color: rgb(73, 200, 250); /* Endre til ønsket farge for "THE" */
+  color: rgb(73, 200, 250); 
 }
 .kids {
-  color: rgb(130, 207, 100); /* Endre til ønsket farge for "KIDS" */
+  color: rgb(130, 207, 100); 
 }
 .Gallery {
   justify-content: space-around;
@@ -1008,5 +1012,65 @@ nav :hover {
   .event_elders h2 {
     padding: 3%;
     font-size: 5vw;
+  }
+}
+.Page_in_dev{
+  margin-top: 15%;
+  margin-bottom: 30%;
+  text-align: center;
+  font-size: 2vw;
+}
+.Page_in_dev h2{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5%;
+  font-size: 2vw;
+}
+.Payment_sucsess{
+  box-shadow: 10px 10px 5px  rgba(0, 0, 0, 0.157);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  margin: 10%;
+  border-radius:10px;
+  background-color: #920101
+}
+.Picture_background{
+  background-image: url("IMG/exhibition-1863344_1920.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+.Payment_sucsess h2{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 2%;
+  font-size: 2vw;
+  font-weight: 100;
+}
+.Payment_sucsess button{
+  box-shadow: 10px 10px 5px  rgba(0, 0, 0, 0.157);
+  margin-top: 5%;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  border-radius:10px;
+  background-color: #920101;
+  border: none;
+  box-shadow: none;
+}
+@media (max-width: 600px){
+  .Page_in_dev{
+    margin-top: 15%;
+    margin-bottom: 110%;
+  }
+  .Payment_sucsess{
+    font-size: 3vw;
+    padding: none;
+  }
+  .background{
+    margin-bottom: 85%;
+  }
+  .Payment_sucsess h2{
+    font-size: 3vw;
   }
 }
