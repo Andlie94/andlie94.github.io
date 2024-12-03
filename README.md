@@ -1,6 +1,6 @@
 # Museum project/ Semester project
 ![Picture of a museum just for ilustration](https://images.unsplash.com/photo-1491156855053-9cdff72c7f85?q=80&w=3028&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
-The task of this project was to create and set up a website for a fictional company called Rainydays. This was to learn HTML, CSS, and Figma.
+The task of this project was to create and set up a website for a fictional company by your own choose it just had to be a Museum. This was to learn HTML, CSS, and Figma.
 ## Description
 In the semester project, we were tasked with testing what we had learned during our first year at Noroff. For this assignment, we had to develop a website for a museum. We were free to choose the name of the museum, so I decided to go for something local. The project started with designing in Figma, followed by setting up the structure in HTML, and then styling the website using CSS.
 + Design: make a visual design in figma
