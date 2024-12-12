@@ -478,6 +478,9 @@ nav :hover {
   .exhibition_container h2{
     font-size: 30px;
   }
+  .date p{
+   font-size: 2vw !important;
+  }
 }
 @media (min-width: 670px) {
   .Phone_img_container {
@@ -494,11 +497,16 @@ nav :hover {
   margin-left: 15%;
   margin-top: 0.5%;
   margin-bottom: 5%;
-  font-size: 1vw;
+  font-size: 2vw;
 }
 .policy_and_terms_container {
   justify-content: space-around;
   margin: 0 15%;
+}
+.policy_and_terms_container ul{
+  list-style-type: none;
+  font-size: 2vw;
+
 }
 .policy_and_terms_container h2 {
   margin-bottom: 0.5%;
@@ -831,7 +839,7 @@ nav :hover {
   border-radius: 5%;
   border: NONE;
 }
-.Pay_info input {
+.pay_info input {
   margin-top: 2%;
   width: 30%;
   height: 2vw;
