@@ -76,7 +76,7 @@ nav :hover {
   .hamburger_menu {
     display: none;
     left: 10px;
-    top: 10px;
+    top: 50px;
   }
   nav a {
     display: inline;
@@ -86,14 +86,12 @@ nav :hover {
   header {
     background-color: #ffffff;
     z-index: 9999;
-  }
-  .logo_Skedsmo_museum {
-    width: 60px;
+    margin-bottom: 10%;
   }
   .hamburger_menu {
     place-content: left;
     position: absolute;
-    top: 8px;
+    top:30px;
     left: 10px;
     font-size: 30px;
   }
@@ -102,7 +100,7 @@ nav :hover {
     height: 300px;
     padding-top: 40px;
     left: 0px;
-    top: 42px;
+    top: 100px;
     background-color: #ffffff;
     box-shadow: 0 200px 100px rgba(0, 0, 0, 0.509);
     text-align: center;
@@ -481,6 +479,9 @@ nav :hover {
   .date p{
    font-size: 2vw !important;
   }
+  .logo_Skedsmo_museum {
+    width: 30vw;
+  }
 }
 @media (min-width: 670px) {
   .Phone_img_container {
@@ -502,19 +503,20 @@ nav :hover {
 .policy_and_terms_container {
   justify-content: space-around;
   margin: 0 15%;
+  margin-bottom: 2%;
 }
 .policy_and_terms_container ul{
   list-style-type: none;
-  font-size: 2vw;
-
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1vw;
 }
 .policy_and_terms_container h2 {
   margin-bottom: 0.5%;
-  font-size: 2vw;
+  font-size: 2rem;
   margin-top: 3%;
 }
 .policy_and_terms_container p {
-  font-size: 1.2vw;
+  font-size: 1rem;
   color: black;
 }
 .policy_and_terms_container a {
@@ -528,9 +530,15 @@ nav :hover {
   .header_policy {
     margin-top: 10%;
   }
+  .policy_and_terms_container h2 {
+    font-size: 1rem;
+  }
   .policy_and_terms_container p{
-    font-size: 2.5vw;
+    font-size: 3vw;
     margin-top: 2%;
+  }
+  .policy_and_terms_container ul {
+    font-size: 2vw;
   }
 }
 .Contact_head {
